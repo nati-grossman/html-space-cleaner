@@ -1,0 +1,23 @@
+{
+  "name": "html-space-cleaner",
+  "version": "1.0.1",
+  "description": "The package provides functions to normalize HTML strings by removing extra spaces and ensuring consistent formatting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nati-grossman/html-space-cleaner.git"
+  },
+  "keywords": [
+    "html",
+    "cleaner-html",
+    "spaces-html",
+    "remove-spaces-attributes",
+    "remove-spaces-html",
+    "remove-spaces"
+  ],
+  "author": "nati grossman",
+  "license": "MIT"
+}
