@@ -1,0 +1,54 @@
+{
+  "name": "html-space-cleaner",
+  "version": "2.0.1",
+  "description": "A TypeScript library that provides functions to normalize HTML strings by removing extra spaces and ensuring consistent formatting.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx rimraf dist && tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "clean": "npx rimraf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nati-grossman/html-space-cleaner.git"
+  },
+  "keywords": [
+    "html",
+    "cleaner-html",
+    "spaces-html",
+    "remove-spaces-attributes",
+    "remove-spaces-html",
+    "remove-spaces",
+    "typescript"
+  ],
+  "author": "nati grossman",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
